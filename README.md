@@ -22,7 +22,7 @@
 ### Endpoints are -
  
      Post - /save/student
-     Get  - /student/(nullable firstname)
+     Get  - /student/(nullable firstname i.e. : if we send the first name in the request param then we will get the details of that student otherwise will get all active student details )
      Delete-/delete-id/{id}
 ### Note
 * You can change server port by setting properties in application.properties file i.e.
